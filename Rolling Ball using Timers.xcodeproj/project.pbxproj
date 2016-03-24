@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7E1B85F1CA4240500DB99D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E1B85E1CA4240500DB99D6 /* main.m */; };
+		B7E1B8621CA4240500DB99D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E1B8611CA4240500DB99D6 /* AppDelegate.m */; };
+		B7E1B8651CA4240500DB99D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E1B8641CA4240500DB99D6 /* ViewController.m */; };
+		B7E1B8681CA4240500DB99D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E1B8661CA4240500DB99D6 /* Main.storyboard */; };
+		B7E1B86A1CA4240500DB99D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E1B8691CA4240500DB99D6 /* Assets.xcassets */; };
+		B7E1B86D1CA4240500DB99D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E1B86B1CA4240500DB99D6 /* LaunchScreen.storyboard */; };
+		B7E1B8781CA4240500DB99D6 /* Rolling_Ball_using_TimersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E1B8771CA4240500DB99D6 /* Rolling_Ball_using_TimersTests.m */; };
+		B7E1B8831CA4240500DB99D6 /* Rolling_Ball_using_TimersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E1B8821CA4240500DB99D6 /* Rolling_Ball_using_TimersUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7E1B8741CA4240500DB99D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E1B8521CA4240500DB99D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E1B8591CA4240500DB99D6;
+			remoteInfo = "Rolling Ball using Timers";
+		};
+		B7E1B87F1CA4240500DB99D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E1B8521CA4240500DB99D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E1B8591CA4240500DB99D6;
+			remoteInfo = "Rolling Ball using Timers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7E1B85A1CA4240500DB99D6 /* Rolling Ball using Timers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rolling Ball using Timers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E1B85E1CA4240500DB99D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7E1B8601CA4240500DB99D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7E1B8611CA4240500DB99D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7E1B8631CA4240500DB99D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7E1B8641CA4240500DB99D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7E1B8671CA4240500DB99D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7E1B8691CA4240500DB99D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7E1B86C1CA4240500DB99D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7E1B86E1CA4240500DB99D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E1B8731CA4240500DB99D6 /* Rolling Ball using TimersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rolling Ball using TimersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E1B8771CA4240500DB99D6 /* Rolling_Ball_using_TimersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rolling_Ball_using_TimersTests.m; sourceTree = "<group>"; };
+		B7E1B8791CA4240500DB99D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E1B87E1CA4240500DB99D6 /* Rolling Ball using TimersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rolling Ball using TimersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E1B8821CA4240500DB99D6 /* Rolling_Ball_using_TimersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rolling_Ball_using_TimersUITests.m; sourceTree = "<group>"; };
+		B7E1B8841CA4240500DB99D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E1B8571CA4240500DB99D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E1B8701CA4240500DB99D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E1B87B1CA4240500DB99D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7E1B8511CA4240500DB99D6 = {
+			isa = PBXGroup;
+			children = (
+				B7E1B85C1CA4240500DB99D6 /* Rolling Ball using Timers */,
+				B7E1B8761CA4240500DB99D6 /* Rolling Ball using TimersTests */,
+				B7E1B8811CA4240500DB99D6 /* Rolling Ball using TimersUITests */,
+				B7E1B85B1CA4240500DB99D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7E1B85B1CA4240500DB99D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7E1B85A1CA4240500DB99D6 /* Rolling Ball using Timers.app */,
+				B7E1B8731CA4240500DB99D6 /* Rolling Ball using TimersTests.xctest */,
+				B7E1B87E1CA4240500DB99D6 /* Rolling Ball using TimersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E1B85C1CA4240500DB99D6 /* Rolling Ball using Timers */ = {
+			isa = PBXGroup;
+			children = (
+				B7E1B8601CA4240500DB99D6 /* AppDelegate.h */,
+				B7E1B8611CA4240500DB99D6 /* AppDelegate.m */,
+				B7E1B8631CA4240500DB99D6 /* ViewController.h */,
+				B7E1B8641CA4240500DB99D6 /* ViewController.m */,
+				B7E1B8661CA4240500DB99D6 /* Main.storyboard */,
+				B7E1B8691CA4240500DB99D6 /* Assets.xcassets */,
+				B7E1B86B1CA4240500DB99D6 /* LaunchScreen.storyboard */,
+				B7E1B86E1CA4240500DB99D6 /* Info.plist */,
+				B7E1B85D1CA4240500DB99D6 /* Supporting Files */,
+			);
+			path = "Rolling Ball using Timers";
+			sourceTree = "<group>";
+		};
+		B7E1B85D1CA4240500DB99D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7E1B85E1CA4240500DB99D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7E1B8761CA4240500DB99D6 /* Rolling Ball using TimersTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E1B8771CA4240500DB99D6 /* Rolling_Ball_using_TimersTests.m */,
+				B7E1B8791CA4240500DB99D6 /* Info.plist */,
+			);
+			path = "Rolling Ball using TimersTests";
+			sourceTree = "<group>";
+		};
+		B7E1B8811CA4240500DB99D6 /* Rolling Ball using TimersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E1B8821CA4240500DB99D6 /* Rolling_Ball_using_TimersUITests.m */,
+				B7E1B8841CA4240500DB99D6 /* Info.plist */,
+			);
+			path = "Rolling Ball using TimersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7E1B8591CA4240500DB99D6 /* Rolling Ball using Timers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E1B8871CA4240500DB99D6 /* Build configuration list for PBXNativeTarget "Rolling Ball using Timers" */;
+			buildPhases = (
+				B7E1B8561CA4240500DB99D6 /* Sources */,
+				B7E1B8571CA4240500DB99D6 /* Frameworks */,
+				B7E1B8581CA4240500DB99D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rolling Ball using Timers";
+			productName = "Rolling Ball using Timers";
+			productReference = B7E1B85A1CA4240500DB99D6 /* Rolling Ball using Timers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7E1B8721CA4240500DB99D6 /* Rolling Ball using TimersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E1B88A1CA4240500DB99D6 /* Build configuration list for PBXNativeTarget "Rolling Ball using TimersTests" */;
+			buildPhases = (
+				B7E1B86F1CA4240500DB99D6 /* Sources */,
+				B7E1B8701CA4240500DB99D6 /* Frameworks */,
+				B7E1B8711CA4240500DB99D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E1B8751CA4240500DB99D6 /* PBXTargetDependency */,
+			);
+			name = "Rolling Ball using TimersTests";
+			productName = "Rolling Ball using TimersTests";
+			productReference = B7E1B8731CA4240500DB99D6 /* Rolling Ball using TimersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7E1B87D1CA4240500DB99D6 /* Rolling Ball using TimersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E1B88D1CA4240500DB99D6 /* Build configuration list for PBXNativeTarget "Rolling Ball using TimersUITests" */;
+			buildPhases = (
+				B7E1B87A1CA4240500DB99D6 /* Sources */,
+				B7E1B87B1CA4240500DB99D6 /* Frameworks */,
+				B7E1B87C1CA4240500DB99D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E1B8801CA4240500DB99D6 /* PBXTargetDependency */,
+			);
+			name = "Rolling Ball using TimersUITests";
+			productName = "Rolling Ball using TimersUITests";
+			productReference = B7E1B87E1CA4240500DB99D6 /* Rolling Ball using TimersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7E1B8521CA4240500DB99D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "bear0064@algonquinlive.com";
+				TargetAttributes = {
+					B7E1B8591CA4240500DB99D6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B7E1B8721CA4240500DB99D6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B7E1B8591CA4240500DB99D6;
+					};
+					B7E1B87D1CA4240500DB99D6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B7E1B8591CA4240500DB99D6;
+					};
+				};
+			};
+			buildConfigurationList = B7E1B8551CA4240500DB99D6 /* Build configuration list for PBXProject "Rolling Ball using Timers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7E1B8511CA4240500DB99D6;
+			productRefGroup = B7E1B85B1CA4240500DB99D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E1B8591CA4240500DB99D6 /* Rolling Ball using Timers */,
+				B7E1B8721CA4240500DB99D6 /* Rolling Ball using TimersTests */,
+				B7E1B87D1CA4240500DB99D6 /* Rolling Ball using TimersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7E1B8581CA4240500DB99D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E1B86D1CA4240500DB99D6 /* LaunchScreen.storyboard in Resources */,
+				B7E1B86A1CA4240500DB99D6 /* Assets.xcassets in Resources */,
+				B7E1B8681CA4240500DB99D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E1B8711CA4240500DB99D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E1B87C1CA4240500DB99D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7E1B8561CA4240500DB99D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E1B8651CA4240500DB99D6 /* ViewController.m in Sources */,
+				B7E1B8621CA4240500DB99D6 /* AppDelegate.m in Sources */,
+				B7E1B85F1CA4240500DB99D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E1B86F1CA4240500DB99D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E1B8781CA4240500DB99D6 /* Rolling_Ball_using_TimersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E1B87A1CA4240500DB99D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E1B8831CA4240500DB99D6 /* Rolling_Ball_using_TimersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7E1B8751CA4240500DB99D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E1B8591CA4240500DB99D6 /* Rolling Ball using Timers */;
+			targetProxy = B7E1B8741CA4240500DB99D6 /* PBXContainerItemProxy */;
+		};
+		B7E1B8801CA4240500DB99D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E1B8591CA4240500DB99D6 /* Rolling Ball using Timers */;
+			targetProxy = B7E1B87F1CA4240500DB99D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7E1B8661CA4240500DB99D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E1B8671CA4240500DB99D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7E1B86B1CA4240500DB99D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E1B86C1CA4240500DB99D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7E1B8851CA4240500DB99D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7E1B8861CA4240500DB99D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7E1B8881CA4240500DB99D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rolling Ball using Timers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlgonquinCollege.bear0064.Rolling-Ball-using-Timers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7E1B8891CA4240500DB99D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rolling Ball using Timers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlgonquinCollege.bear0064.Rolling-Ball-using-Timers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B7E1B88B1CA4240500DB99D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rolling Ball using TimersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlgonquinCollege.bear0064.Rolling-Ball-using-TimersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rolling Ball using Timers.app/Rolling Ball using Timers";
+			};
+			name = Debug;
+		};
+		B7E1B88C1CA4240500DB99D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rolling Ball using TimersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlgonquinCollege.bear0064.Rolling-Ball-using-TimersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rolling Ball using Timers.app/Rolling Ball using Timers";
+			};
+			name = Release;
+		};
+		B7E1B88E1CA4240500DB99D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rolling Ball using TimersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlgonquinCollege.bear0064.Rolling-Ball-using-TimersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rolling Ball using Timers";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B7E1B88F1CA4240500DB99D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rolling Ball using TimersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlgonquinCollege.bear0064.Rolling-Ball-using-TimersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rolling Ball using Timers";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E1B8551CA4240500DB99D6 /* Build configuration list for PBXProject "Rolling Ball using Timers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E1B8851CA4240500DB99D6 /* Debug */,
+				B7E1B8861CA4240500DB99D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E1B8871CA4240500DB99D6 /* Build configuration list for PBXNativeTarget "Rolling Ball using Timers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E1B8881CA4240500DB99D6 /* Debug */,
+				B7E1B8891CA4240500DB99D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7E1B88A1CA4240500DB99D6 /* Build configuration list for PBXNativeTarget "Rolling Ball using TimersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E1B88B1CA4240500DB99D6 /* Debug */,
+				B7E1B88C1CA4240500DB99D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7E1B88D1CA4240500DB99D6 /* Build configuration list for PBXNativeTarget "Rolling Ball using TimersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E1B88E1CA4240500DB99D6 /* Debug */,
+				B7E1B88F1CA4240500DB99D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7E1B8521CA4240500DB99D6 /* Project object */;
+}
