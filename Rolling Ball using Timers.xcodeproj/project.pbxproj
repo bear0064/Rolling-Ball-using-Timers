@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B73EC42B1CB231A100BFB9E1 /* ballThinger.m in Sources */ = {isa = PBXBuildFile; fileRef = B73EC42A1CB231A100BFB9E1 /* ballThinger.m */; };
 		B7E1B85F1CA4240500DB99D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E1B85E1CA4240500DB99D6 /* main.m */; };
 		B7E1B8621CA4240500DB99D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E1B8611CA4240500DB99D6 /* AppDelegate.m */; };
 		B7E1B8651CA4240500DB99D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E1B8641CA4240500DB99D6 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		B7E1B86D1CA4240500DB99D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E1B86B1CA4240500DB99D6 /* LaunchScreen.storyboard */; };
 		B7E1B8781CA4240500DB99D6 /* Rolling_Ball_using_TimersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E1B8771CA4240500DB99D6 /* Rolling_Ball_using_TimersTests.m */; };
 		B7E1B8831CA4240500DB99D6 /* Rolling_Ball_using_TimersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E1B8821CA4240500DB99D6 /* Rolling_Ball_using_TimersUITests.m */; };
+		B7E1B8911CA4268B00DB99D6 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E1B8901CA4268B00DB99D6 /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B73EC4291CB231A100BFB9E1 /* ballThinger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ballThinger.h; sourceTree = "<group>"; };
+		B73EC42A1CB231A100BFB9E1 /* ballThinger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ballThinger.m; sourceTree = "<group>"; };
 		B7E1B85A1CA4240500DB99D6 /* Rolling Ball using Timers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rolling Ball using Timers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E1B85E1CA4240500DB99D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7E1B8601CA4240500DB99D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,7 @@
 		B7E1B87E1CA4240500DB99D6 /* Rolling Ball using TimersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rolling Ball using TimersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E1B8821CA4240500DB99D6 /* Rolling_Ball_using_TimersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rolling_Ball_using_TimersUITests.m; sourceTree = "<group>"; };
 		B7E1B8841CA4240500DB99D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E1B8901CA4268B00DB99D6 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,8 @@
 				B7E1B86B1CA4240500DB99D6 /* LaunchScreen.storyboard */,
 				B7E1B86E1CA4240500DB99D6 /* Info.plist */,
 				B7E1B85D1CA4240500DB99D6 /* Supporting Files */,
+				B73EC4291CB231A100BFB9E1 /* ballThinger.h */,
+				B73EC42A1CB231A100BFB9E1 /* ballThinger.m */,
 			);
 			path = "Rolling Ball using Timers";
 			sourceTree = "<group>";
@@ -117,6 +124,7 @@
 		B7E1B85D1CA4240500DB99D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B7E1B8901CA4268B00DB99D6 /* ball.png */,
 				B7E1B85E1CA4240500DB99D6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -245,6 +253,7 @@
 			files = (
 				B7E1B86D1CA4240500DB99D6 /* LaunchScreen.storyboard in Resources */,
 				B7E1B86A1CA4240500DB99D6 /* Assets.xcassets in Resources */,
+				B7E1B8911CA4268B00DB99D6 /* ball.png in Resources */,
 				B7E1B8681CA4240500DB99D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			files = (
 				B7E1B8651CA4240500DB99D6 /* ViewController.m in Sources */,
 				B7E1B8621CA4240500DB99D6 /* AppDelegate.m in Sources */,
+				B73EC42B1CB231A100BFB9E1 /* ballThinger.m in Sources */,
 				B7E1B85F1CA4240500DB99D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +506,7 @@
 				B7E1B8891CA4240500DB99D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7E1B88A1CA4240500DB99D6 /* Build configuration list for PBXNativeTarget "Rolling Ball using TimersTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				B7E1B88C1CA4240500DB99D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7E1B88D1CA4240500DB99D6 /* Build configuration list for PBXNativeTarget "Rolling Ball using TimersUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				B7E1B88F1CA4240500DB99D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

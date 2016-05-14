@@ -12,6 +12,7 @@
 
 @end
 
+
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -23,5 +24,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(IBAction)startButton:(id)sender{
+    
+    [self performSegueWithIdentifier:@"Ball Game" sender:self];
+    
+}
+
 
 @end

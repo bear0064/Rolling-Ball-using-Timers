@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home Page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController title="Home Page" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,117 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6l-76-gbe">
+                                <rect key="frame" x="277" y="446" width="46" height="30"/>
+                                <state key="normal" title="Go"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="381" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="4Xa-oo-FCL" kind="show" id="cds-G3-Y6F"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Ball Thinger-->
+        <scene sceneID="h0m-7w-sdp">
+            <objects>
+                <viewController id="4Xa-oo-FCL" customClass="ballThinger" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PPu-io-C3r"/>
+                        <viewControllerLayoutGuide type="bottom" id="nk4-As-EHp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jlb-pI-quL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZT-ky-f6L">
+                                <rect key="frame" x="285" y="372" width="30" height="30"/>
+                                <state key="normal" title="Up"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="185" y="582" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="StopTop:" destination="4Xa-oo-FCL" eventType="touchUpInside" id="j53-Ix-MN2"/>
+                                    <action selector="up:" destination="4Xa-oo-FCL" eventType="touchDown" id="PqE-RD-uhd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qkd-RY-sUq">
+                                <rect key="frame" x="281" y="484" width="39" height="30"/>
+                                <state key="normal" title="Down"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="181" y="694" width="39" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="StopBottom:" destination="4Xa-oo-FCL" eventType="touchUpInside" id="BFW-es-h4W"/>
+                                    <action selector="down:" destination="4Xa-oo-FCL" eventType="touchDown" id="Vc8-9E-S6J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjd-kn-p9P">
+                                <rect key="frame" x="347" y="425" width="36" height="30"/>
+                                <state key="normal" title="Right"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="247" y="635" width="36" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="StopRight:" destination="4Xa-oo-FCL" eventType="touchUpInside" id="b8P-w1-tvD"/>
+                                    <action selector="right:" destination="4Xa-oo-FCL" eventType="touchDown" id="8e7-kM-XM2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkI-NC-0TM">
+                                <rect key="frame" x="219" y="425" width="30" height="30"/>
+                                <state key="normal" title="Left"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="119" y="635" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="StopLeft:" destination="4Xa-oo-FCL" eventType="touchUpInside" id="FY7-xu-Vqy"/>
+                                    <action selector="left:" destination="4Xa-oo-FCL" eventType="touchDown" id="wBE-VV-Bwj"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nc4-yh-ZZG">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="MWw-Dw-n0c">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="CuL-aJ-RAs">
+                                            <connections>
+                                                <action selector="backButton:" destination="4Xa-oo-FCL" id="HZs-Id-nLL"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="eJo-2a-lXH"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="44"/>
+                                </variation>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="ball.png" translatesAutoresizingMaskIntoConstraints="NO" id="3bN-cH-Vx0">
+                                <rect key="frame" x="279" y="141" width="43" height="23"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="178" y="389" width="43" height="23"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="CuL-aJ-RAs" id="lRQ-gt-qJN"/>
+                        <outlet property="ballImg" destination="3bN-cH-Vx0" id="uDP-qX-UzR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gCt-ZA-KE0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1429.5" y="144.75"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="ball.png" width="64" height="64"/>
+    </resources>
 </document>
